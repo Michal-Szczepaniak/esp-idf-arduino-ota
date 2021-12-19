@@ -1,0 +1,15 @@
+menu "ArduinoOTA configuration"
+
+config ARDUINOOTA_TARGET_ADDRESS
+    string "ESP32 target ip"
+    default "localhost"
+
+config ARDUINOOTA_TARGET_PORT
+    string "ESP32 target port"
+    default "3232"
+
+config ARDUINOOTA_HOST_PORT
+    string "ESP32 host port"
+    default "3232"
+
+endmenu
